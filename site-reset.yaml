@@ -1,0 +1,9 @@
+---
+- hosts: clients
+  roles:
+  - glusterfs-client-reset
+- hosts: servers
+  vars:
+    glusterfs_mountpoint: /srv/glusterfs
+  roles:
+  - glusterfs-server-reset

@@ -1,0 +1,7 @@
+---
+- hosts: servers
+  roles:
+  - glusterfs-server
+- hosts: clients
+  roles:
+  - glusterfs-client
