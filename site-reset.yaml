@@ -4,6 +4,6 @@
   - glusterfs-client-reset
 - hosts: servers
   vars:
-    glusterfs_mountpoint: /srv/glusterfs
+    glusterfs_mountpoint: /data
   roles:
   - glusterfs-server-reset
