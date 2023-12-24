@@ -1,12 +1,12 @@
 [submodule "roles/glusterfs-server"]
 	path = roles/glusterfs-server
-	url = https://baltig.infn.it/fornari/glusterfs-server.git
+	url = https://github.com/ffornari90/glusterfs-server.git
 [submodule "roles/glusterfs-server-reset"]
 	path = roles/glusterfs-server-reset
-	url = https://baltig.infn.it/fornari/glusterfs-server-reset.git
+	url = https://github.com/ffornari90/glusterfs-server-reset.git
 [submodule "roles/glusterfs-client"]
 	path = roles/glusterfs-client
-	url = https://baltig.infn.it/fornari/glusterfs-client.git
+	url = https://github.com/ffornari90/glusterfs-client.git
 [submodule "roles/glusterfs-client-reset"]
 	path = roles/glusterfs-client-reset
-	url = https://baltig.infn.it/fornari/glusterfs-client-reset.git
+	url = https://github.com/ffornari90/glusterfs-client-reset.git
